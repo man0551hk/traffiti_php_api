@@ -1,5 +1,5 @@
 <?php
-
+require_once("include.php");
 require_once("db.php");
 require_once("objectClass/country.php");
 
