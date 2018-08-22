@@ -4,10 +4,11 @@ if($_SERVER['HTTP_REFERER'] != "traffiter.com")
     // exit(); 
 }
 if ($_SERVER['REQUEST_METHOD'] === 'GET') {
-    exit(); 
+    // exit(); 
 }
-
-header('Access-Control-Allow-Origin: http://traffiter.com');
+//
+// header('Access-Control-Allow-Origin: http://localhost');
+header('Access-Control-Allow-Origin: *');
 header('Content-Type: application/json');
 
 $lang = $_POST["lang"];
