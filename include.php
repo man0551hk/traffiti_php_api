@@ -7,7 +7,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
     // exit(); 
 }
 //
-// header('Access-Control-Allow-Origin: http://localhost');
+// header('Access-Control-Allow-Origin: *');
 header('Access-Control-Allow-Origin: *');
 header('Content-Type: application/json');
 
