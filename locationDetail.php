@@ -34,7 +34,7 @@ l.location_id  = '$locationID'";
 $result = mysql_query($sql) or die ($data = mysql_error());
 while ($row = mysql_fetch_array($result)) {
     $homepageGrid = new homePageGird($row["location_id"], $row["name"], null,
-    // ,
+
     $row["country"], $row["area"], $row["district"], $row["bookmark_id"]);
 
     //array_push($data, $homepageGrid);
