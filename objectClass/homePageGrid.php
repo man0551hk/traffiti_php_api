@@ -6,9 +6,10 @@ class homePageGird {
     var $countryName;
     var $areaName;
     var $districtName;
+    var $bookmarkID;
 
     function __construct( $locationID, $name,  $image, 
-    $countryName, $areaName, $districtName
+    $countryName, $areaName, $districtName,  $bookmarkID
     ) {
         $this->locationID = $locationID;
         $this->name = $name;
@@ -16,6 +17,7 @@ class homePageGird {
         $this->countryName = $countryName;
         $this->areaName = $areaName;
         $this->districtName = $districtName;
+        $this->bookmarkID = $bookmarkID;
      }
 }
 

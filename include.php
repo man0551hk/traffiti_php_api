@@ -1,4 +1,6 @@
 <?php
+$domain = 'traffiter.com';
+$imageDomain = 'image.traffiter.com';
 if($_SERVER['HTTP_REFERER'] != "traffiter.com")
 {
     // exit(); 
